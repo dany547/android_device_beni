@@ -54,6 +54,9 @@ RECOVERY_GRAPHICS_USE_LINELENGTH := true
 TARGET_RECOVERY_FSTAB := device/samsung/beni/twrp/recovery.fstab
 TW_CUSTOM_POWER_BUTTON := 107
 TW_ALWAYS_RMRF := true 
+TW_HAS_DOWNLOAD_MODE := true
+TW_BRIGHTNESS_PATH := "/sys/devices/platform/msm_fb.196609/leds/lcd-backlight/brightness"
+TW_MAX_BRIGHTNESS := 255
 
 # Recovery
 TARGET_RECOVERY_INITRC := device/samsung/beni/recovery/recovery.rc
